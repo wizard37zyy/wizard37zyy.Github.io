@@ -2,3 +2,4 @@
 
 this is [diary2022-01-11](_posts/2022-01-11-first_post.md).
 
+this is [diary2022-01-12](_posts/2022-01-12-GMT.md).
