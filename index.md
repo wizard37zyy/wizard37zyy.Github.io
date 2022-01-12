@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/wizard37zyy/wizard37zyy.Github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [daily](_posts/2022-01-11-first_post.md).
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
