@@ -35,4 +35,10 @@ It's just deburst. Just because Sentinel-1 images have the burst.
 
 Sometimes merge is required when the Region Of Interest belongs to more than one IW.
 
-### 2.6
+### 2.6 Subset
+
+The Region Of Interest is always much smaller than the full Sentinel-1 image so subset the ROI as you wish.
+
+### 2.7 Interforemetry
+
+Just intergoregram formation. But remember substract the topographic phase and output elevation and lon/lat.
