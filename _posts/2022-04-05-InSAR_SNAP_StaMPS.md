@@ -21,3 +21,9 @@ We can use model folder in this STEP.
 
 Yes, this step is just registration. However, it's better to put the images in order and use the 1s DEM. 
 This step will last for a relatively long time.
+
+### 2.4 Deburst
+
+It's just deburst. Just because Sentinel-1 images have the burst.
+
+### 2.5 
