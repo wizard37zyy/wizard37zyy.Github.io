@@ -8,13 +8,19 @@ Which just means 'the way to do something'.
 Almost everytime when we want to a research aboutremote sensing, we always find the research region at first.
 
 This time we choose the Huainan area.
+```Javascript
 var roi = pie.Geometry.Polygon([[[116.50,32.78],[116.75,32.78],[116.75,32.94],[116.50,32.94],[116.50,32.78]]], null);
+```
 
 And we want to show this roi.
+```Javascript
 Map.addLayer(roi)
+```
 
 At the same time, it's important to center the object.
+```Javascript
 Map.centerObject(roi, 12);
+```
 
 ### STEP2 datacollection
 
