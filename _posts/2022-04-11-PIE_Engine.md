@@ -35,18 +35,24 @@ This time we choose the Gaofen. And the process about datacollection always have
 
 Find the collection we want to use and import them.
 We use Gaofen-1 as a example.
+```Javascript
 var gf1 = pie.ImageCollection("GF1/L1A/BCD_FUSION").
+```
 
 #### 2.2 filter the collection
 
 We always filter many things, because we don't need every images.
 filterBounds and filterDate are most useful.
+```Javascript
 var gf1 = pie.ImageCollection("GF1/L1A/BCD_FUSION")
             .filterBounds(roi)
             .filterDate('2020-02-20','2020-10-01')
             .first();
+```
 
 #### 2.3 show them
 
-Then we just show it
+Then we just show it.
+```Javascript
 Map.addLayer(gf01.select(["B3", "B2", "B1"]), {min: 500, max: 2000}, "gf1");
+```
